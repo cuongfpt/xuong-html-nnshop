@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shop</title>
+    <link rel="stylesheet" href="./src/style/shop.scss">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+    <div id="root">
+        <header class="header">
+            <div class="container">
+                <div class="header-inner">
+                    <div class="header_media">
+                        <img src="./img/Frame 168.png" alt="">
+                    </div>
+                    <nav class="main-menu">
+                        <ul class="main-menu__list">
+                            <li class="main-menu__item"><a class="main-menu__link" href="index.html">Home</a></li>
+                            <li class="main-menu__item"><a class="main-menu__link" href="shop.html">Shop</a></li>
+                            <li class="main-menu__item"><a class="main-menu__link" href="">About</a></li>
+                            <li class="main-menu__item"><a class="main-menu__link" href="">Contact</a></li>
+                        </ul>
+                    </nav>
+                    <div class="header-action">
+                        <div class="header-action-item">
+                            <img src="./img/user.png" alt="">
+                        </div>
+                        <div class="header-action-item">
+                            <img src="./img/search.png" alt="">
+                        </div>
+                        <div class="header-action-item">
+                            <img src="./img/heart.png" alt="">
+                        </div>
+                        <div class="header-action-item">
+                           <a href="./cart.html"><img src="./img/cart.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="banner">
+            <img src="./img/bannershop.png" alt="" class="banner__img">
+        </section>
+
+        <section class="action-bar">
+            <div class="container">
+                <div class="action-bar_inner">
+                    <div class="action-bar_inner_left">
+                        <div class="action-bar_inner_left_filter">
+                            <div>
+                                <a href=""><img src="./img/option.png" alt=""></a>
+                            </div>
+                            <a href=""><span>Filter</span></a>
+                        </div>
+                        <div class="action-bar_inner_left_dot">
+                            <a href=""><img src="./img/dot.png" alt=""></a>
+                        </div>
+                        <div class="action-bar_inner_left_viewlist">
+                            <a href=""><img src="./img/viewlist.png" alt=""></a>
+                        </div>
+                        <div class="action-bar_inner_left_showing">
+                            <span>Showing 1-16 of 32 results</span>
+                        </div>
+                    </div>
+                    <div class="action-bar_inner_right">
+                        <div class="action-bar_inner_right_action">
+                            <span>Show</span>
+                            <span class="action-bar_inner_right_box">16</span>
+                        </div>
+                        <div class="action-bar_inner_right_action">
+                            <span>Short by</span>
+                            <span class="action-bar_inner_right_default">Default</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="products">
+            <div class="container">
+                <div class="product_inner">
+                    <div class="product_list">
+                        <div class="product-item">
+                            <div class="product-media">
+                                <img src="./img/product1.png" class="product-media__img" alt="">
+                                <span class="product-media__label">- 30%</span>
+                            </div>
+                            <div class="product-content">
+                                <h3 class="product__name">
+                                    <a href="">Syltherine</a>
+                                </h3>
+                                <a class="product__category" href="">Stylish cafe chair</a>
+                                <div class="product-price">
+                                    <span class="product-price__new">2.500.000</span>
+                                    <span class="product-price__old">3.500.000đ</span>
+                                </div>
+                            </div>
+                            <div class="product-actions">
+                                <button class="product-actions__addtocart">Add To Cart</button>
+                                <a href="detail.html" class="product-actions__viewdetail">View Detail</a>
+                                <ul class="product-actions__more">
+                                    <li><a href=""><img src="./img/share.png" alt="">Share</a></li>
+                                    <li><a href=""><img src="./img/compare.png" alt="">Compare</a></li>
+                                    <li><a href=""><img src="./img/Heartcard.png" alt="">Like</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-item">
+                            <div class="product-media">
+                                <img src="./img/product2.png" class="product-media__img" alt="">
+                            </div>
+                            <div class="product-content">
+                                <h3 class="product__name">
+                                    <a href="">Leviosa</a>
+                                </h3>
+                                <a class="product__category" href="">Stylish cafe chair</a>
+                                <div class="product-price">
+                                    <span class="product-price__new">2.500.000</span>
+                                </div>
+                            </div>
+                            <div class="product-actions">
+                                <button class="product-actions__addtocart">Add To Cart</button>
+                                <a href="detail.html" class="product-actions__viewdetail">View Detail</a>
+                                <ul class="product-actions__more">
+                                    <li><a href=""><img src="./img/share.png" alt="">Share</a></li>
+                                    <li><a href=""><img src="./img/compare.png" alt="">Compare</a></li>
+                                    <li><a href=""><img src="./img/Heartcard.png" alt="">Like</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-item">
+                            <div class="product-media">
+                                <img src="./img/product3.png" class="product-media__img" alt="">
+                                <span class="product-media__label">- 50%</span>
+                            </div>
+                            <div class="product-content">
+                                <h3 class="product__name">
+                                    <a href="">Lolito</a>
+                                </h3>
+                                <a class="product__category" href="">Luxury big sofa</a>
+                                <div class="product-price">
+                                    <span class="product-price__new">7.500.000</span>
+                                    <span class="product-price__old">14.000.000đ</span>
+                                </div>
+                            </div>
+                            <div class="product-actions">
+                                <button class="product-actions__addtocart">Add To Cart</button>
+                                <a href="detail.html" class="product-actions__viewdetail">View Detail</a>
+                                <ul class="product-actions__more">
+                                    <li><a href=""><img src="./img/share.png" alt="">Share</a></li>
+                                    <li><a href=""><img src="./img/compare.png" alt="">Compare</a></li>
+                                    <li><a href=""><img src="./img/Heartcard.png" alt="">Like</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-item">
+                            <div class="product-media">
+                                <img src="./img/product4.png" class="product-media__img" alt="">
+                                <span class="product-media__label__new">New</span>
+                            </div>
+                            <div class="product-content">
+                                <h3 class="product__name">
+                                    <a href="">Respira</a>
+                                </h3>
+                                <a class="product__category" href="">Outdoor bar table and stool</a>
+                                <div class="product-price">
+                                    <span class="product-price__new">5.000.000</span>
+                                </div>
+                            </div>
+                            <div class="product-actions">
+                                <button class="product-actions__addtocart">Add To Cart</button>
+                                <a href="detail.html" class="product-actions__viewdetail">View Detail</a>
+                                <ul class="product-actions__more">
+                                    <li><a href=""><img src="./img/share.png" alt="">Share</a></li>
+                                    <li><a href=""><img src="./img/compare.png" alt="">Compare</a></li>
+                                    <li><a href=""><img src="./img/Heartcard.png" alt="">Like</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-item">
+                            <div class="product-media">
+                                <img src="./img/product1.png" class="product-media__img" alt="">
+                                <span class="product-media__label">- 30%</span>
+                            </div>
+                            <div class="product-content">
+                                <h3 class="product__name">
+                                    <a href="">Syltherine</a>
+                                </h3>
+                                <a class="product__category" href="">Stylish cafe chair</a>
+                                <div class="product-price">
+                                    <span class="product-price__new">2.500.000</span>
+                                    <span class="product-price__old">3.500.000đ</span>
+                                </div>
+                            </div>
+                            <div class="product-actions">
+                                <button class="product-actions__addtocart">Add To Cart</button>
+                                <a href="detail.html" class="product-actions__viewdetail">View Detail</a>
+                                <ul class="product-actions__more">
+                                    <li><a href=""><img src="./img/share.png" alt="">Share</a></li>
+                                    <li><a href=""><img src="./img/compare.png" alt="">Compare</a></li>
+                                    <li><a href=""><img src="./img/Heartcard.png" alt="">Like</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-item">
+                            <div class="product-media">
+                                <img src="./img/product2.png" class="product-media__img" alt="">
+                            </div>
+                            <div class="product-content">
+                                <h3 class="product__name">
+                                    <a href="">Leviosa</a>
+                                </h3>
+                                <a class="product__category" href="">Stylish cafe chair</a>
+                                <div class="product-price">
+                                    <span class="product-price__new">2.500.000</span>
+                                </div>
+                            </div>
+                            <div class="product-actions">
+                                <button class="product-actions__addtocart">Add To Cart</button>
+                                <a href="detail.html" class="product-actions__viewdetail">View Detail</a>
+                                <ul class="product-actions__more">
+                                    <li><a href=""><img src="./img/share.png" alt="">Share</a></li>
+                                    <li><a href=""><img src="./img/compare.png" alt="">Compare</a></li>
+                                    <li><a href=""><img src="./img/Heartcard.png" alt="">Like</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-item">
+                            <div class="product-media">
+                                <img src="./img/product3.png" class="product-media__img" alt="">
+                                <span class="product-media__label">- 50%</span>
+                            </div>
+                            <div class="product-content">
+                                <h3 class="product__name">
+                                    <a href="">Lolito</a>
+                                </h3>
+                                <a class="product__category" href="">Luxury big sofa</a>
+                                <div class="product-price">
+                                    <span class="product-price__new">7.500.000</span>
+                                    <span class="product-price__old">14.000.000đ</span>
+                                </div>
+                            </div>
+                            <div class="product-actions">
+                                <button class="product-actions__addtocart">Add To Cart</button>
+                                <a href="detail.html" class="product-actions__viewdetail">View Detail</a>
+                                <ul class="product-actions__more">
+                                    <li><a href=""><img src="./img/share.png" alt="">Share</a></li>
+                                    <li><a href=""><img src="./img/compare.png" alt="">Compare</a></li>
+                                    <li><a href=""><img src="./img/Heartcard.png" alt="">Like</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-item">
+                            <div class="product-media">
+                                <img src="./img/product4.png" class="product-media__img" alt="">
+                                <span class="product-media__label__new">New</span>
+                            </div>
+                            <div class="product-content">
+                                <h3 class="product__name">
+                                    <a href="">Respira</a>
+                                </h3>
+                                <a class="product__category" href="">Outdoor bar table and stool</a>
+                                <div class="product-price">
+                                    <span class="product-price__new">5.000.000</span>
+                                </div>
+                            </div>
+                            <div class="product-actions">
+                                <button class="product-actions__addtocart">Add To Cart</button>
+                                <a href="detail.html" class="product-actions__viewdetail">View Detail</a>
+                                <ul class="product-actions__more">
+                                    <li><a href=""><img src="./img/share.png" alt="">Share</a></li>
+                                    <li><a href=""><img src="./img/compare.png" alt="">Compare</a></li>
+                                    <li><a href=""><img src="./img/Heartcard.png" alt="">Like</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-item">
+                            <div class="product-media">
+                                <img src="./img/product1.png" class="product-media__img" alt="">
+                                <span class="product-media__label">- 30%</span>
+                            </div>
+                            <div class="product-content">
+                                <h3 class="product__name">
+                                    <a href="">Syltherine</a>
+                                </h3>
+                                <a class="product__category" href="">Stylish cafe chair</a>
+                                <div class="product-price">
+                                    <span class="product-price__new">2.500.000</span>
+                                    <span class="product-price__old">3.500.000đ</span>
+                                </div>
+                            </div>
+                            <div class="product-actions">
+                                <button class="product-actions__addtocart">Add To Cart</button>
+                                <a href="detail.html" class="product-actions__viewdetail">View Detail</a>
+                                <ul class="product-actions__more">
+                                    <li><a href=""><img src="./img/share.png" alt="">Share</a></li>
+                                    <li><a href=""><img src="./img/compare.png" alt="">Compare</a></li>
+                                    <li><a href=""><img src="./img/Heartcard.png" alt="">Like</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-item">
+                            <div class="product-media">
+                                <img src="./img/product2.png" class="product-media__img" alt="">
+                            </div>
+                            <div class="product-content">
+                                <h3 class="product__name">
+                                    <a href="">Leviosa</a>
+                                </h3>
+                                <a class="product__category" href="">Stylish cafe chair</a>
+                                <div class="product-price">
+                                    <span class="product-price__new">2.500.000</span>
+                                </div>
+                            </div>
+                            <div class="product-actions">
+                                <button class="product-actions__addtocart">Add To Cart</button>
+                                <a href="detail.html" class="product-actions__viewdetail">View Detail</a>
+                                <ul class="product-actions__more">
+                                    <li><a href=""><img src="./img/share.png" alt="">Share</a></li>
+                                    <li><a href=""><img src="./img/compare.png" alt="">Compare</a></li>
+                                    <li><a href=""><img src="./img/Heartcard.png" alt="">Like</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-item">
+                            <div class="product-media">
+                                <img src="./img/product3.png" class="product-media__img" alt="">
+                                <span class="product-media__label">- 50%</span>
+                            </div>
+                            <div class="product-content">
+                                <h3 class="product__name">
+                                    <a href="">Lolito</a>
+                                </h3>
+                                <a class="product__category" href="">Luxury big sofa</a>
+                                <div class="product-price">
+                                    <span class="product-price__new">7.500.000</span>
+                                    <span class="product-price__old">14.000.000đ</span>
+                                </div>
+                            </div>
+                            <div class="product-actions">
+                                <button class="product-actions__addtocart">Add To Cart</button>
+                                <a href="detail.html" class="product-actions__viewdetail">View Detail</a>
+                                <ul class="product-actions__more">
+                                    <li><a href=""><img src="./img/share.png" alt="">Share</a></li>
+                                    <li><a href=""><img src="./img/compare.png" alt="">Compare</a></li>
+                                    <li><a href=""><img src="./img/Heartcard.png" alt="">Like</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-item">
+                            <div class="product-media">
+                                <img src="./img/product4.png" class="product-media__img" alt="">
+                                <span class="product-media__label__new">New</span>
+                            </div>
+                            <div class="product-content">
+                                <h3 class="product__name">
+                                    <a href="">Respira</a>
+                                </h3>
+                                <a class="product__category" href="">Outdoor bar table and stool</a>
+                                <div class="product-price">
+                                    <span class="product-price__new">5.000.000</span>
+                                </div>
+                            </div>
+                            <div class="product-actions">
+                                <button class="product-actions__addtocart">Add To Cart</button>
+                                <a href="detail.html" class="product-actions__viewdetail">View Detail</a>
+                                <ul class="product-actions__more">
+                                    <li><a href=""><img src="./img/share.png" alt="">Share</a></li>
+                                    <li><a href=""><img src="./img/compare.png" alt="">Compare</a></li>
+                                    <li><a href=""><img src="./img/Heartcard.png" alt="">Like</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-item">
+                            <div class="product-media">
+                                <img src="./img/product1.png" class="product-media__img" alt="">
+                                <span class="product-media__label">- 30%</span>
+                            </div>
+                            <div class="product-content">
+                                <h3 class="product__name">
+                                    <a href="">Syltherine</a>
+                                </h3>
+                                <a class="product__category" href="">Stylish cafe chair</a>
+                                <div class="product-price">
+                                    <span class="product-price__new">2.500.000</span>
+                                    <span class="product-price__old">3.500.000đ</span>
+                                </div>
+                            </div>
+                            <div class="product-actions">
+                                <button class="product-actions__addtocart">Add To Cart</button>
+                                <a href="detail.html" class="product-actions__viewdetail">View Detail</a>
+                                <ul class="product-actions__more">
+                                    <li><a href=""><img src="./img/share.png" alt="">Share</a></li>
+                                    <li><a href=""><img src="./img/compare.png" alt="">Compare</a></li>
+                                    <li><a href=""><img src="./img/Heartcard.png" alt="">Like</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-item">
+                            <div class="product-media">
+                                <img src="./img/product2.png" class="product-media__img" alt="">
+                            </div>
+                            <div class="product-content">
+                                <h3 class="product__name">
+                                    <a href="">Leviosa</a>
+                                </h3>
+                                <a class="product__category" href="">Stylish cafe chair</a>
+                                <div class="product-price">
+                                    <span class="product-price__new">2.500.000</span>
+                                </div>
+                            </div>
+                            <div class="product-actions">
+                                <button class="product-actions__addtocart">Add To Cart</button>
+                                <a href="detail.html" class="product-actions__viewdetail">View Detail</a>
+                                <ul class="product-actions__more">
+                                    <li><a href=""><img src="./img/share.png" alt="">Share</a></li>
+                                    <li><a href=""><img src="./img/compare.png" alt="">Compare</a></li>
+                                    <li><a href=""><img src="./img/Heartcard.png" alt="">Like</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-item">
+                            <div class="product-media">
+                                <img src="./img/product3.png" class="product-media__img" alt="">
+                                <span class="product-media__label">- 50%</span>
+                            </div>
+                            <div class="product-content">
+                                <h3 class="product__name">
+                                    <a href="">Lolito</a>
+                                </h3>
+                                <a class="product__category" href="">Luxury big sofa</a>
+                                <div class="product-price">
+                                    <span class="product-price__new">7.500.000</span>
+                                    <span class="product-price__old">14.000.000đ</span>
+                                </div>
+                            </div>
+                            <div class="product-actions">
+                                <button class="product-actions__addtocart">Add To Cart</button>
+                                <a href="detail.html" class="product-actions__viewdetail">View Detail</a>
+                                <ul class="product-actions__more">
+                                    <li><a href=""><img src="./img/share.png" alt="">Share</a></li>
+                                    <li><a href=""><img src="./img/compare.png" alt="">Compare</a></li>
+                                    <li><a href=""><img src="./img/Heartcard.png" alt="">Like</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-item">
+                            <div class="product-media">
+                                <img src="./img/product4.png" class="product-media__img" alt="">
+                                <span class="product-media__label__new">New</span>
+                            </div>
+                            <div class="product-content">
+                                <h3 class="product__name">
+                                    <a href="">Respira</a>
+                                </h3>
+                                <a class="product__category" href="">Outdoor bar table and stool</a>
+                                <div class="product-price">
+                                    <span class="product-price__new">5.000.000</span>
+                                </div>
+                            </div>
+                            <div class="product-actions">
+                                <button class="product-actions__addtocart">Add To Cart</button>
+                                <a href="detail.html" class="product-actions__viewdetail">View Detail</a>
+                                <ul class="product-actions__more">
+                                    <li><a href=""><img src="./img/share.png" alt="">Share</a></li>
+                                    <li><a href=""><img src="./img/compare.png" alt="">Compare</a></li>
+                                    <li><a href=""><img src="./img/Heartcard.png" alt="">Like</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product_action">
+                        <button class="product_action_active">1</button>
+                        <button class="product_action_btn">2</button>
+                        <button class="product_action_btn">3</button>
+                        <button class="product_action_btn">Next</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+        <section class="role">
+            <div class="role_inner">
+                <div class="role_inner__box">
+                    <div class="role_inner__box__img">
+                        <img src="./img/trophy.png" alt="">
+                    </div>
+                    <div class="ole_inner__box__text">
+                        <h4>High Quality</h4>
+                        <p>crafted from top materials</p>
+                    </div>
+                </div>
+                <div class="role_inner__box">
+                    <div class="role_inner__box__img">
+                        <img src="./img/guarantee.png" alt="">
+                    </div>
+                    <div class="ole_inner__box__text">
+                        <h4>Warranty Protection</h4>
+                        <p>Over 2 years</p>
+                    </div>
+                </div>
+                <div class="role_inner__box">
+                    <div class="role_inner__box__img">
+                        <img src="./img/shipping.png" alt="">
+                    </div>
+                    <div class="ole_inner__box__text">
+                        <h4>Free Shipping</h4>
+                        <p>Order over 150 $</p>
+                    </div>
+                </div>
+                <div class="role_inner__box">
+                    <div class="role_inner__box__img">
+                        <img src="./img/customer.png" alt="">
+                    </div>
+                    <div class="ole_inner__box__text">
+                        <h4>24 / 7 Support</h4>
+                        <p>Dedicated support</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <footer class="footer">
+            <div class="container">
+                <div class="footer_inner">
+                    <div class="footer_inner_list">
+                        <div class="footer_inner_list__information">
+                            <h3>Funiro.</h3>
+                            <p>400 University Drive Suite 200 Coral Gables,
+                                <br>FL 33134 USA
+                            </p>
+                        </div>
+                        <div class="footer_inner_list__link">
+                            <h3>Links</h3>
+                            <ul>
+                                <li><a href="">Home</a></li>
+                                <li><a href="">Shop</a></li>
+                                <li><a href="">About</a></li>
+                                <li><a href="">Contact</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer_inner_list__link">
+                            <h3>Help</h3>
+                            <ul>
+                                <li><a href="">Payment Options</a></li>
+                                <li><a href="">Returns</a></li>
+                                <li><a href="">Privacy Policies</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer_inner_list__newsletter">
+                            <h3>Newsletter</h3>
+                            <div class="footer_inner_list__newsletter__formSubmit">
+                                <input placeholder="Enter Your Email Address" type="text">
+                                <button>SUBCRIBE</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <span class="footer_end">2023 furino. All rights reverved</span>
+            </div>
+        </footer>
+
+    </div>
+</body>
+</html>

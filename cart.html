@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart page </title>
+    <link rel="stylesheet" href="./src/style/cart.scss">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-inner">
+                <div class="header_media">
+                    <img src="./img/Frame 168.png" alt="">
+                </div>
+                <nav class="main-menu">
+                    <ul class="main-menu__list">
+                        <li class="main-menu__item"><a class="main-menu__link" href="./index.html">Home</a></li>
+                        <li class="main-menu__item"><a class="main-menu__link" href="./shop.html">Shop</a></li>
+                        <li class="main-menu__item"><a class="main-menu__link" href="">About</a></li>
+                        <li class="main-menu__item"><a class="main-menu__link" href="">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="header-action">
+                    <div class="header-action-item">
+                        <img src="./img/user.png" alt="">
+                    </div>
+                    <div class="header-action-item">
+                        <img src="./img/search.png" alt="">
+                    </div>
+                    <div class="header-action-item">
+                        <img src="./img/heart.png" alt="">
+                    </div>
+                    <div class="header-action-item">
+                       <a href="./cart.html"><img src="./img/cart.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="banner">
+        <img src="./img/cartbanner.png" alt="" class="banner__img">
+    </section>
+
+
+    <section class="cart">
+        <div class="container">
+            <div class="cart_inner">
+                <div class="cart_info">
+                    <table class="cart_table">
+                        <thead>
+                            <tr class="cart_bg_nav">
+                                <th class="theade_name">Product</th>
+                                <th class="thead_price">Price</th>
+                                <th class="thead_quantity">Quantity</th>
+                                <th class="theade_subtotal">Subtotal</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        
+                        <tbody>
+                            <tr class="cart_body">
+                                <td class="tbody_name"><img src="./img/cartproduct.png" alt=""><span>Asgaard sofa</span></td>
+                                <td class="tbody_price"><span>25.000.000đ</span></td>
+                                <td class="tbody_quantity"><span class="quantity_table">1</span></td>
+                                <td class="tbody_subtotal">25.000.000đ</td>
+                                <td class="tbody_action"><img src="./img/removve.png" alt=""></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="cart_action">
+                   <div class="cart_action_inner">
+                        <h4>Cart Totals</h4>
+                        <div class="cart_action_subtotal">
+                            <span>Subtotal</span>
+                            <span class="price">25.000.000đ</span>
+                        </div>
+                        <div class="cart_action_total">
+                            <span>Total</span>
+                            <span class="price">25.000.000đ</span>
+                        </div>
+                        <div class="cart_action_btn">
+                            <a href="./checkout.html">Check Out</a>
+                        </div>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section class="role">
+        <div class="role_inner">
+            <div class="role_inner__box">
+                <div class="role_inner__box__img">
+                    <img src="./img/trophy.png" alt="">
+                </div>
+                <div class="ole_inner__box__text">
+                    <h4>High Quality</h4>
+                    <p>crafted from top materials</p>
+                </div>
+            </div>
+            <div class="role_inner__box">
+                <div class="role_inner__box__img">
+                    <img src="./img/guarantee.png" alt="">
+                </div>
+                <div class="ole_inner__box__text">
+                    <h4>Warranty Protection</h4>
+                    <p>Over 2 years</p>
+                </div>
+            </div>
+            <div class="role_inner__box">
+                <div class="role_inner__box__img">
+                    <img src="./img/shipping.png" alt="">
+                </div>
+                <div class="ole_inner__box__text">
+                    <h4>Free Shipping</h4>
+                    <p>Order over 150 $</p>
+                </div>
+            </div>
+            <div class="role_inner__box">
+                <div class="role_inner__box__img">
+                    <img src="./img/customer.png" alt="">
+                </div>
+                <div class="ole_inner__box__text">
+                    <h4>24 / 7 Support</h4>
+                    <p>Dedicated support</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer_inner">
+                <div class="footer_inner_list">
+                    <div class="footer_inner_list__information">
+                        <h3>Funiro.</h3>
+                        <p>400 University Drive Suite 200 Coral Gables,
+                            <br>FL 33134 USA
+                        </p>
+                    </div>
+                    <div class="footer_inner_list__link">
+                        <h3>Links</h3>
+                        <ul>
+                            <li><a href="">Home</a></li>
+                            <li><a href="">Shop</a></li>
+                            <li><a href="">About</a></li>
+                            <li><a href="">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer_inner_list__link">
+                        <h3>Help</h3>
+                        <ul>
+                            <li><a href="">Payment Options</a></li>
+                            <li><a href="">Returns</a></li>
+                            <li><a href="">Privacy Policies</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer_inner_list__newsletter">
+                        <h3>Newsletter</h3>
+                        <div class="footer_inner_list__newsletter__formSubmit">
+                            <input placeholder="Enter Your Email Address" type="text">
+                            <button>SUBCRIBE</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <span class="footer_end">2023 furino. All rights reverved</span>
+        </div>
+    </footer>
+</body>
+</html>

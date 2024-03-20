@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <link rel="stylesheet" href="./src/style/index.scss" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="app">
+      <header class="header">
+        <div class="container">
+          <div class="header-inner">
+            <div class="header_media">
+              <img src="./img/Frame 168.png" alt="" />
+            </div>
+            <nav class="main-menu">
+              <ul class="main-menu__list">
+                <li class="main-menu__item">
+                  <a class="main-menu__link" href="./index.html">Home</a>
+                </li>
+                <li class="main-menu__item">
+                  <a class="main-menu__link" href="shop.html">Shop</a>
+                </li>
+                <li class="main-menu__item">
+                  <a class="main-menu__link" href="">About</a>
+                </li>
+                <li class="main-menu__item">
+                  <a class="main-menu__link" href="">Contact</a>
+                </li>
+              </ul>
+            </nav>
+            <div class="header-action">
+              <div class="header-action-item">
+                <img src="./img/user.png" alt="" />
+              </div>
+              <div class="header-action-item">
+                <img src="./img/search.png" alt="" />
+              </div>
+              <div class="header-action-item">
+                <img src="./img/heart.png" alt="" />
+              </div>
+              <div class="header-action-item">
+                <a href="./cart.html"><img src="./img/cart.png" alt="" /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <section class="banner">
+        <img src="./img/banner.png" alt="" class="banner__img" />
+      </section>
+
+      <section class="news">
+        <div class="container">
+          <div class="handing">
+            <h1 class="handing__title">News</h1>
+          </div>
+          <div class="body">
+            <div class="product-list">
+              <div class="product-item">
+                <div class="product-media">
+                  <img
+                    src="./img/product1.png"
+                    class="product-media__img"
+                    alt=""
+                  />
+                  <span class="product-media__label">- 30%</span>
+                </div>
+                <div class="product-content">
+                  <h3 class="product__name">
+                    <a href="">Syltherine</a>
+                  </h3>
+                  <a class="product__category" href="">Stylish cafe chair</a>
+                  <div class="product-price">
+                    <span class="product-price__new">2.500.000</span>
+                    <span class="product-price__old">3.500.000đ</span>
+                  </div>
+                </div>
+                <div class="product-actions">
+                  <a href="cart.html"
+                    ><button class="product-actions__addtocart">
+                      Add To Cart
+                    </button></a
+                  >
+                  <a href="detail.html" class="product-actions__viewdetail"
+                    >View Detail</a
+                  >
+                  <ul class="product-actions__more">
+                    <li>
+                      <a href=""><img src="./img/share.png" alt="" />Share</a>
+                    </li>
+                    <li>
+                      <a href=""
+                        ><img src="./img/compare.png" alt="" />Compare</a
+                      >
+                    </li>
+                    <li>
+                      <a href=""
+                        ><img src="./img/Heartcard.png" alt="" />Like</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="product-item">
+                <div class="product-media">
+                  <img
+                    src="./img/product2.png"
+                    class="product-media__img"
+                    alt=""
+                  />
+                </div>
+                <div class="product-content">
+                  <h3 class="product__name">
+                    <a href="">Leviosa</a>
+                  </h3>
+                  <a class="product__category" href="">Stylish cafe chair</a>
+                  <div class="product-price">
+                    <span class="product-price__new">2.500.000</span>
+                  </div>
+                </div>
+                <div class="product-actions">
+                  <button class="product-actions__addtocart">
+                    Add To Cart
+                  </button>
+                  <a href="detail.html" class="product-actions__viewdetail"
+                    >View Detail</a
+                  >
+                  <ul class="product-actions__more">
+                    <li>
+                      <a href=""><img src="./img/share.png" alt="" />Share</a>
+                    </li>
+                    <li>
+                      <a href=""
+                        ><img src="./img/compare.png" alt="" />Compare</a
+                      >
+                    </li>
+                    <li>
+                      <a href=""
+                        ><img src="./img/Heartcard.png" alt="" />Like</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="product-item">
+                <div class="product-media">
+                  <img
+                    src="./img/product3.png"
+                    class="product-media__img"
+                    alt=""
+                  />
+                  <span class="product-media__label">- 50%</span>
+                </div>
+                <div class="product-content">
+                  <h3 class="product__name">
+                    <a href="">Lolito</a>
+                  </h3>
+                  <a class="product__category" href="">Luxury big sofa</a>
+                  <div class="product-price">
+                    <span class="product-price__new">7.500.000</span>
+                    <span class="product-price__old">14.000.000đ</span>
+                  </div>
+                </div>
+                <div class="product-actions">
+                  <button class="product-actions__addtocart">
+                    Add To Cart
+                  </button>
+                  <a href="detail.html" class="product-actions__viewdetail"
+                    >View Detail</a
+                  >
+                  <ul class="product-actions__more">
+                    <li>
+                      <a href=""><img src="./img/share.png" alt="" />Share</a>
+                    </li>
+                    <li>
+                      <a href=""
+                        ><img src="./img/compare.png" alt="" />Compare</a
+                      >
+                    </li>
+                    <li>
+                      <a href=""
+                        ><img src="./img/Heartcard.png" alt="" />Like</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="product-item">
+                <div class="product-media">
+                  <img
+                    src="./img/product4.png"
+                    class="product-media__img"
+                    alt=""
+                  />
+                  <span class="product-media__label__new">New</span>
+                </div>
+                <div class="product-content">
+                  <h3 class="product__name">
+                    <a href="">Respira</a>
+                  </h3>
+                  <a class="product__category" href=""
+                    >Outdoor bar table and stool</a
+                  >
+                  <div class="product-price">
+                    <span class="product-price__new">5.000.000</span>
+                  </div>
+                </div>
+                <div class="product-actions">
+                  <button class="product-actions__addtocart">
+                    Add To Cart
+                  </button>
+                  <a href="detail.html" class="product-actions__viewdetail"
+                    >View Detail</a
+                  >
+                  <ul class="product-actions__more">
+                    <li>
+                      <a href=""><img src="./img/share.png" alt="" />Share</a>
+                    </li>
+                    <li>
+                      <a href=""
+                        ><img src="./img/compare.png" alt="" />Compare</a
+                      >
+                    </li>
+                    <li>
+                      <a href=""
+                        ><img src="./img/Heartcard.png" alt="" />Like</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="shop">
+        <div class="container">
+          <div class="handing">
+            <h1 class="handing__title">Shop</h1>
+          </div>
+          <div class="shop-body">
+            <div class="shop-product">
+              <img src="./img/shop1.png" alt="" />
+              <img src="./img/shop2.png" alt="" />
+              <img src="./img/shop3.png" alt="" />
+              <img src="./img/shop4.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="blog">
+        <div class="container">
+          <div class="handing">
+            <h1 class="handing__title">Blog</h1>
+          </div>
+          <div class="blog_inner">
+            <div class="blog_box">
+              <img src="./img/blog1.png" alt="" />
+              <div class="blog_box__text">
+                <div class="blog_box__text__desc">
+                  <h3>THE ULTIMATE SOFA BUYING GUIDE</h3>
+                  <p>
+                    The versatility of our living space is more crucial than
+                    ever. But buying a sofa might be a difficult undertaking.
+                    Your needs and the size of your living area will determine
+                    everything, However, don’t worry, were are here to help you
+                  </p>
+                </div>
+                <div class="blog_box__action">
+                  <a href=""
+                    ><span>ABOUT</span><img src="./img/arrow.png" alt=""
+                  /></a>
+                </div>
+              </div>
+            </div>
+            <div class="blog_box">
+              <img src="./img/blog2.png" alt="" />
+              <div class="blog_box__text">
+                <div class="blog_box__text__desc">
+                  <h3>A BEDROOM MUST HAVE SOME THING LIKE THIS</h3>
+                  <p>
+                    Your level of comfort when geting into and out of bed can be
+                    greatly influenced by the bed frame you choose. It may
+                    significantly affect how want your bedroom to feet and look
+                  </p>
+                </div>
+                <div class="blog_box__action">
+                  <a href=""
+                    ><span>ABOUT</span><img src="./img/arrow.png" alt=""
+                  /></a>
+                </div>
+              </div>
+            </div>
+            <div class="blog_box">
+              <img src="./img/blog3.png" alt="" />
+              <div class="blog_box__text">
+                <div class="blog_box__text__desc">
+                  <h3>WHY IS A TV CONSOLE A MUST IN EVERY HOUSE</h3>
+                  <p>
+                    People do a lot of research to make sure they purchase the
+                    ideal televisoin. And like the rest of us, you want to keep
+                    that gorgeous flat srceen in your living or bedroom on a
+                    table or stand
+                  </p>
+                </div>
+                <div class="blog_box__action">
+                  <a href=""
+                    ><span>ABOUT</span><img src="./img/arrow.png" alt=""
+                  /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="role">
+        <div class="role_inner">
+          <div class="role_inner__box">
+            <div class="role_inner__box__img">
+              <img src="./img/trophy.png" alt="" />
+            </div>
+            <div class="ole_inner__box__text">
+              <h4>High Quality</h4>
+              <p>crafted from top materials</p>
+            </div>
+          </div>
+          <div class="role_inner__box">
+            <div class="role_inner__box__img">
+              <img src="./img/guarantee.png" alt="" />
+            </div>
+            <div class="ole_inner__box__text">
+              <h4>Warranty Protection</h4>
+              <p>Over 2 years</p>
+            </div>
+          </div>
+          <div class="role_inner__box">
+            <div class="role_inner__box__img">
+              <img src="./img/shipping.png" alt="" />
+            </div>
+            <div class="ole_inner__box__text">
+              <h4>Free Shipping</h4>
+              <p>Order over 150 $</p>
+            </div>
+          </div>
+          <div class="role_inner__box">
+            <div class="role_inner__box__img">
+              <img src="./img/customer.png" alt="" />
+            </div>
+            <div class="ole_inner__box__text">
+              <h4>24 / 7 Support</h4>
+              <p>Dedicated support</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="footer_inner">
+            <div class="footer_inner_list">
+              <div class="footer_inner_list__information">
+                <h3>Funiro.</h3>
+                <p>
+                  400 University Drive Suite 200 Coral Gables, <br />FL 33134
+                  USA
+                </p>
+              </div>
+              <div class="footer_inner_list__link">
+                <h3>Links</h3>
+                <ul>
+                  <li><a href="">Home</a></li>
+                  <li><a href="">Shop</a></li>
+                  <li><a href="">About</a></li>
+                  <li><a href="">Contact</a></li>
+                </ul>
+              </div>
+              <div class="footer_inner_list__link">
+                <h3>Help</h3>
+                <ul>
+                  <li><a href="">Payment Options</a></li>
+                  <li><a href="">Returns</a></li>
+                  <li><a href="">Privacy Policies</a></li>
+                </ul>
+              </div>
+              <div class="footer_inner_list__newsletter">
+                <h3>Newsletter</h3>
+                <div class="footer_inner_list__newsletter__formSubmit">
+                  <input placeholder="Enter Your Email Address" type="text" />
+                  <button>SUBCRIBE</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <span class="footer_end">2023 furino. All rights reverved</span>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
