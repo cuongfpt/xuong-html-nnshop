@@ -2,9 +2,9 @@
 {
     "rewrites": [
         { "source": "/index.html", "destination": "/" },
-        { "source": "/cart.html", "destination": "/cart.html" },
-        { "source": "/checkout.html", "destination": "/checkout.html" },
-        { "source": "/detail.html", "destination": "/detail.html" },
-        { "source": "/shop.html", "destination": "/shop.html" }
+        { "source": "/cart.html", "destination": "/cart" },
+        { "source": "/checkout.html", "destination": "/checkout" },
+        { "source": "/detail.html", "destination": "/detail" },
+        { "source": "/shop.html", "destination": "/shop" }
     ]
 }
